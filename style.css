@@ -38,10 +38,13 @@ body {
 
 .clock {
   position: relative;
-  width: 25rem;
-  height: 25rem;
+  width: 30rem;
+  height: 30rem;
   border-radius: 50%;
-  border: 8px solid #fff;
+  /* border: 8px solid #fff; */
+  background-image: url(clock.png);
+  background-position: center;
+  background-size: contain;
   box-shadow: 6px 6px 8px rgba(119, 119, 119, 0.3);
 }
 
